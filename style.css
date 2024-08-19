@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+
+}
+
+#nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white ;
+    padding: 35px 30px ;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+#nav #navl{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    /* background-color: brown; */
+
+}
+#nav #navl i {
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#nav #navl span{
+    font-weight: bold;
+    font-size: 20px; 
+    padding-top: 5px;
+    margin-left: 20px;
+}
+#nav #navm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+#navm #navm1{
+    display: flex;
+    margin-left: 100px;
+    position: relative;
+
+    /* background-color: red; */
+
+}
+#navm1 p{
+    margin: 0px 10px ;
+    padding: 0px 15px;
+}
+#drinkhead{
+    position: relative;
+}
+#nav #navm1 #drinks:hover::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin:0% 14%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes lineanime{
+    0%{
+        width: 0;
+        left: 0%;
+
+    }
+    50%{
+        width: 68%;
+        left: 0%;
+    }
+    100%{
+        width: 0;
+        left: 68%;
+    }
+}
+
+#chead{
+    position: relative;
+}
+#Catagories:hover::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin-left: 16%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+#bfhead{
+
+    position: relative;
+}
+#Bf:hover::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin:0% 14%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#navm #navm3{
+    display: flex;
+    
+    width: 30%;
+    
+    margin-right: 100px;
+    padding:30px 25px ; 
+}
+#navm3 p{
+    margin: 0px 12px;
+    padding: 0px 10px;
+}
+
+#p1head{
+    position: relative;
+}
+#p2head{
+    position: relative;
+}
+#p3head{
+    position: relative ; 
+}
+#stores:hover::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin:0% 14%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#cus:hover::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin:0% 14%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#os:hover::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    margin:0% 14%;
+    background-color: white;
+    animation-name: lineanime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+#navr i {
+    font-size: 22px; 
+    transition: all;
+    transition-duration: 1s;
+}
+#navr i:hover{
+    font-size: 38px;
+
+}
+
+
+#centerlogo{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 00px 10px;
+    /* margin-left: 1000px; */
+    position: relative;
+
+    
+    
+}
+#centerlogo img {
+    width: 180px ;
+    height: 80px;
+    /* background-color: white; */
+    
+    position: relative;
+}
+#centerlogo #leftline{
+    height: 2px;
+    width: 100px;
+    background-color: red ;
+}
+#centerlogo #rightline{
+    height: 2px;
+    width: 100px;
+    background-color: red ;
+}
+
+
+
+
+
+
+#content{
+    display: flex;
+    height:84%;
+    justify-content: space-between;
+}
+
+
+#left{
+    width: 35%;
+   
+    /* background-color: blue; */
+    /* height: 903px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+#left #text{
+    margin-top: 200px;
+    margin-right: 100px;
+    padding-right: 80px;
+    padding-left: 80px ;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.2;
+
+    letter-spacing: 2px;
+    color: white;
+}
+#left #text span{
+    color: red ;
+    font-weight: 100;
+}
+#left #textlower{
+    /* background-color: aqua; */
+    margin-top: 50px;
+    padding: 0px 90px;
+    color: white;
+    line-height: 1.7;
+
+}
+#left #leftbutton{
+    background-color: rgb(200, 29, 29);
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 1px solid red;
+    height: 50px;
+    width: 130px ;
+    border-radius: 20px;
+    padding: 4px 10px ;
+    font-size: 15px;
+    color: rgba(255, 241, 241, 0.956);
+    font-weight: 1000;
+}
+#left #lowerbutton{
+    display: flex; 
+    
+    align-items: center;
+}
+#left #lowerbutton>i {
+    font-size: 30px;
+    color: rgb(200, 20, 20);
+    margin-left: 10px;
+    margin-top: 23px;
+    padding: 5px 10px ;
+    /* background-color: rgb(26, 96, 157); */
+}
+
+
+#mid{
+    width: 25%;
+    /* background-color:blueviolet ; */
+    /* height: 903px; */
+    position:  relative;
+}
+#mid #bgimage{
+    margin-top: 20%;
+    width: 90%;
+    height: 73%;
+    border-top-left-radius: 950px;
+    border-top-right-radius: 950px;
+    background-color: darkmagenta;
+
+    background-image: url(https://c0.wallpaperflare.com/preview/85/135/782/coca-cola-led-signage.jpg);
+    background-position: 35% 18%;
+    background-size: 380%;
+    filter: blur(3px);
+
+}
+#content>img{
+    position: absolute;
+    top: 18%;
+    left: 38%;
+    width: 25%;
+    height: 75%;
+    color: white;
+}
+
+
+#right{
+
+    width: 35%;
+    /* background-color: aqua; */
+    position: relative;
+
+}
+#rightcontent{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(0, 38, 255); */
+
+    width: 58%;
+    height: 50% ;
+    position: absolute;
+    top: 45%;
+
+    left: 10%;
+    color: rgba(229, 223, 223, 0.998);
+    
+
+}
+#rightcontent #rightcontent1{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(150, 138, 138);
+    border-bottom: 1px solid rgb(150, 138, 138);
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+
+#rightcontent #rightcontent2{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(150, 138, 138);
+    border-bottom: 1px solid rgb(150, 138, 138);    font-size: 30px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+#rightcontent i{
+    font-weight: 100;
+}
+#rightcontent #rightcontent3>p{
+
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 14px;
+    padding-bottom: 13px;
+
+}
+#rightcontent #rightcontent3details{
+
+    color: rgba(234, 209, 209, 0.887);
+    font-weight: 500;
+    
+}
